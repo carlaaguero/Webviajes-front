@@ -3,14 +3,17 @@ import React from 'react';
 import Home from './Pages/Home'
 import './App.css';
 
-function App() {
-  return(
-    <div className= "App">
-      {/* <Layout /> */}
-      <Home />
-    </div>
-  );
+const App = props => {
+  
+  return (
+    
+        <div className="header-main">        
+          
+              <Home />          
+              
+        </div>
 
+    ); 
 }
 
 export default App;

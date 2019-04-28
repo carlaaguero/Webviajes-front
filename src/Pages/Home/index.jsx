@@ -1,6 +1,8 @@
 import React from 'react';
 import './index.scss';
 import Menu from '../Menu';
+import Footer from '../Footer';
+
 
 const Home = props => {
 
@@ -22,6 +24,7 @@ const Home = props => {
                 <button className='Home-button'>ver destinos</button>
 
             </div>
+            <Footer />
         </div>  
 
     );
