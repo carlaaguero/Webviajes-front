@@ -1,14 +1,15 @@
 import React from 'react';
 import './menu.scss';
+import logo from '../../assets/images/iconoweb.png';
 
 const Menu = props => {
     return(
     <div className='Menu'>
         <div className='logo'>
-            <img className='imagen' src="./img/iconoweb.png"  alt="Logo" ></img>
+        <img className='imagen' src={logo}  alt="Logo" ></img>
         </div>
             <nav className='navbar'>
-                <a href='#Destinos' class="icon-link">Destinos</a>
+                <a href='#Destinos' className="icon-link">Destinos</a>
                 <a href ='#Quién somos'>Quién somos</a>
                 <a href ='#Donde estamos'>Donde estamos</a>     
         
