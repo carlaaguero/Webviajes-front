@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './index.scss';
 import Header from './header.jsx';
-// import QuieneSomos from './quienesSomos.jsx'
+import QuienSomos from './quienSomos.jsx'
 // import DondeEstamos from './dondeEstamos.jsx';
 import Viajes from './viajes.jsx';
 
@@ -50,8 +50,8 @@ function Home(props) {
                     />
                 </div>
             </div>
-            {/* <QuieneSomos />
-            <DondeEstamos /> */}
+            <QuienSomos />
+            {/* <DondeEstamos /> */}
         </div>
     )
 };
