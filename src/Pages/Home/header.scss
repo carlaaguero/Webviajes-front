@@ -1,0 +1,48 @@
+.cabecera{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: center;
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;       
+
+    .titulos{
+           margin: auto;
+           text-align: left;
+           color: white;
+           margin-bottom: 2%;
+           
+           h1{
+                  font-size: 350%;
+                  padding: 0%;
+                  margin: 0%;
+           }
+
+           h3{
+                  font-size: 300%;
+                  padding: 0%;
+                  margin: 0%;
+           }
+    }
+
+    .btn-principal{
+           margin: auto;
+           
+           button{
+                  width: 130%;
+                  height: 3.5rem;
+                  background-color: yellow;
+                  border-color: yellow;
+                  color: black;
+                  font-size: 1.3em;
+           } 
+    }
+}
+
+
+

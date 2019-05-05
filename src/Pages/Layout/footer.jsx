@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.scss';
+import './footer.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

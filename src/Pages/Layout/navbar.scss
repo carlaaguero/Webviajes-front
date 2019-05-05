@@ -1,0 +1,53 @@
+.navegacion {
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       padding: 2%;
+       box-sizing: border-box;
+       position: fixed;
+       top: 0%;
+       transition-duration: 1s;
+
+
+       .logo {
+              width: 30%;
+              
+
+              img {
+                     width: 30%;
+                     text-align: left;
+              }
+       }
+
+       .links {
+              width: 40%;
+              text-align: center;
+
+              a {
+                     padding-right: 4%;
+                     text-decoration: none;
+                     color: white;
+                     font-family: arial;
+                     font-style: italic;
+                     font-size: 1.3em;
+              }
+
+              a:hover {
+                     color: rgb(199, 169, 38);
+              }
+       }
+
+       .iconNav {
+              width: 30%;
+              text-align: right;
+
+              a {
+                     padding-right: 2%;
+              }
+       }
+}
+
+.scrollNav {
+       transition-duration: 2s;
+       background-color: rgb(20, 20, 70);
+}
