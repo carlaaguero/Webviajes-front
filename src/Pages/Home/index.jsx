@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './index.scss';
 import Header from './header.jsx';
 import QuienSomos from './quienSomos.jsx'
-// import DondeEstamos from './dondeEstamos.jsx';
+import Location from './location.jsx';
 import Viajes from './viajes.jsx';
 
 
@@ -51,7 +51,7 @@ function Home(props) {
                 </div>
             </div>
             <QuienSomos />
-            {/* <DondeEstamos /> */}
+            <Location />
         </div>
     )
 };
