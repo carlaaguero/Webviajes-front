@@ -1,0 +1,19 @@
+import React from 'react';
+import './registerForm.scss';
+
+function FormRegister (props) {
+    
+   
+        console.log(props)
+        return (
+        
+                <form className="authForm" onSubmit={props.onSubmit}>
+                <h2>{props.text}</h2>
+                    {props.children}
+                </form>
+            
+        );
+    
+}
+
+export default FormRegister;
