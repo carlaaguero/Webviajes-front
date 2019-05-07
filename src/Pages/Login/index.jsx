@@ -15,7 +15,7 @@ function Login(props) {
             email
         }
 
-        axios.post('http://localhost:8080/users/auth',body).then(res=>{
+        axios.post('http://localhost:8080/users',body).then(res=>{
             console.log(res)
             localStorage.setItem('authorization',res.headers.authorization);
         }).catch(console.error)
