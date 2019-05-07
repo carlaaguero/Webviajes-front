@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
 
 import Home from './Pages/Home/index';
 import Register from './Pages/Register/index';
-// import Login from './Pages/Login/index';
+import Login from './Pages/Login/index';
 
 import Nav from './Pages/Layout/navbar';
 import Footer from './Pages/Layout/footer.jsx';
@@ -28,7 +28,7 @@ function AppRouter() {
                             <Switch>
                                    <Route path="/" component={Home} exact />
                                    <Route path="/register" component={Register} exact />
-                                   {/* <Route path="/login" component={Login} exact /> */}
+                                   <Route path="/login" component={Login} exact />
                                    
                             </Switch>
                      </Layout>

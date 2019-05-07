@@ -10,7 +10,6 @@ import Viajes from './viajes.jsx';
 function Home(props) {
 
 
-
     return (
         <div>
             <Header />
